@@ -2,18 +2,18 @@
 OncoDMP is a cancer driver gene classifier based on a deep neural network using a wealth of prior signaling pathways information.
 ## Dependencies
 ### R packages
-R 4.0.3
-fgsea 1.16.0
-org.Hs.eg.db 3.12.0
-ensembldb 2.14.1
-tidyverse 1.3.1
-rlist 0.4.6.1
-data.table 1.14.0
-
+R 4.0.3\n
+fgsea 1.16.0\n
+org.Hs.eg.db 3.12.0\n
+ensembldb 2.14.1\n
+tidyverse 1.3.1\n
+rlist 0.4.6.1\n
+data.table 1.14.0\n
+\n
 ### python 3.8.5
-datatable 0.11.1
-keras 2.4.3
-tensorflow 2.4.1
+datatable 0.11.1\n
+keras 2.4.3\n
+tensorflow 2.4.1\n
 
 ### model and curated pathways
 
