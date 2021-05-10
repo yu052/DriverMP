@@ -20,7 +20,8 @@ tensorflow 2.4.1
 It is recommended to build the environment with conda.
 
 ## usage
-The input file is the somatic mutation annotation format file (MAF). Once you have all the packages installed, you just need to run DriverMP.sh file like this:
+Download the latest release and unzip it. You will get the trained model and all scripts for prediction.
+The input file is the somatic mutation annotation format file (MAF). Once you have all the essential packages installed, you just need to run DriverMP.sh file like this:
 ```
 DriverMP.sh $MAF_file
 ```
