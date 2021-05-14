@@ -28,6 +28,7 @@ conda install r bioconductor-fgsea bioconductor-org.hs.eg.db bioconductor-ensemb
 Download the latest release and unzip it. You will get the trained model and all scripts for prediction.
 The input file is the somatic mutation annotation format file (MAF). Once you have all the essential packages installed, you just need to run DriverMP.sh file like this:
 ```
+conda activate DriverMP ###activate the DriverMP conda environment.
 DriverMP.sh $MAF_file
 ```
 Note: If you have a very large MAF file, e.g. > 100k somatic mutations, to reduce the memory usage, it is recommended to split your MAF file into few small file with header first. Feed the splitted file to the DriverMP.sh and then concatenate the outputs.
