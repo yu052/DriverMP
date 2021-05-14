@@ -1,0 +1,10 @@
+name: DriverMP
+channels:
+- bioconda
+- defaults
+dependencies:
+- numpy
+- pandas
+- keras=2.4.3
+- datatable
+- tensorflow=2.4.1
