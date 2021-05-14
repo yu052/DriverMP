@@ -3,6 +3,7 @@ channels:
 - bioconda
 - defaults
 dependencies:
+- python=3.8.5
 - numpy
 - pandas
 - keras=2.4.3
