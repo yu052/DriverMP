@@ -1,5 +1,5 @@
 # DriverMP
-OncoDMP is a cancer driver gene classifier based on a deep neural network using a wealth of prior signaling pathways information.
+DriverMP is a cancer driver gene classifier based on a deep neural network using a wealth of prior signaling pathways information.
 ## Dependencies
 ### R packages
 R 4.0.3  
@@ -18,6 +18,11 @@ tensorflow 2.4.1
 ### model and curated pathways
 
 It is recommended to build the environment with conda.
+```
+conda env create -f environment_python.yml ###install dependencies for python
+source activate DriverMPr-data.table
+conda install r bioconductor-fgsea bioconductor-org.hs.eg.db bioconductor-ensembldb r-tidyverse r-rlist r-data.table
+```
 
 ## usage
 Download the latest release and unzip it. You will get the trained model and all scripts for prediction.
